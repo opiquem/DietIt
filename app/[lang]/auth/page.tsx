@@ -1,12 +1,12 @@
-'use client'
+'use client';
 import Link from 'next/link';
-import React, { FC, useState } from 'react';
+import React, { useState } from 'react';
 
 export default function AuthPage() {
   const [number, setNumber] = useState(0);
   const increase = () => {
-    setNumber((lastNumber) => lastNumber + 1)
-  }
+    setNumber((lastNumber) => lastNumber + 1);
+  };
   return (
     <div>
       <button onClick={increase}>Click</button>
@@ -14,4 +14,4 @@ export default function AuthPage() {
       <Link href={'/'}>Home</Link>
     </div>
   );
-};
+}
