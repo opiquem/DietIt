@@ -1,19 +1,20 @@
 'use client';
 
+import { TestComponent } from '@/components/TestComponent/TestComponent';
+import { useGetProductsQuery } from '@/store/services/Products';
+import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import { TestComponent } from '@/components/TestComponent/TestComponent';
-import { useGetProductsQuery } from '@/store/services/Products';
 
 export const products = [
   { id: 1, name: 'grechka', calories: 100 },
   { id: 2, name: 'grechka1', calories: 100 },
   { id: 3, name: 'grechka2', calories: 100 },
+  { id: 4, name: 'grechka3', calories: 100 },
 ];
 
 export default function Products() {
