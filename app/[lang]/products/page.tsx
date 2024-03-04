@@ -14,6 +14,7 @@ export const products = [
   { id: 1, name: 'grechka', calories: 100 },
   { id: 2, name: 'grechka1', calories: 100 },
   { id: 3, name: 'grechka2', calories: 100 },
+  { id: 4, name: 'grechka3', calories: 100 },
 ];
 
 export default function Products() {
